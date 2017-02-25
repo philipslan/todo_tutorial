@@ -1,0 +1,27 @@
+{
+  "name": "todo_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipslan/todo_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipslan/todo_tutorial/issues"
+  },
+  "homepage": "https://github.com/philipslan/todo_tutorial#readme",
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.7.0"
+  }
+}
